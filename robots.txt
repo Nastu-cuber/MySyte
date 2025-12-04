@@ -1,0 +1,18 @@
+# Правила для поисковых роботов
+# Блог о путешествиях - https://nastu-cuber.github.io/MySite/
+
+User-agent: *
+Disallow: /admin/
+Disallow: /tmp/
+Disallow: /private/
+
+# Закрываем служебные папки от индексации
+Disallow: /css/
+Disallow: /js/
+Disallow: /images/
+
+# Разрешаем индексировать весь основной контент
+Allow: /
+
+# Указываем путь к карте сайта
+Sitemap: https://nastu-cuber.github.io/MySite/sitemap.xml
