@@ -1,5 +1,5 @@
 # Правила для поисковых роботов
-# Блог о путешествиях - https://nastu-cuber.github.io/MySite/
+# Блог о путешествиях - https://nastu-cuber.github.io/MySyte/
 
 User-agent: *
 Disallow: /admin/
@@ -15,4 +15,4 @@ Disallow: /images/
 Allow: /
 
 # Указываем путь к карте сайта
-Sitemap: https://nastu-cuber.github.io/MySite/sitemap.xml
+Sitemap: https://nastu-cuber.github.io/MySyte/sitemap.xml
